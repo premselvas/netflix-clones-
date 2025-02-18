@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main1 {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#im1 {
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(30%);
+}
+
+.main11 img {
+    width: 250px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+.main12 {
+    position: absolute;
+    top: 200px;
+    width: 50vw;
+    left: 25vw;
+    right: 25vw;
+    color: azure;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.main13 {
+    position: absolute;
+    top: 80%;
+    left: 27%;
+}
+
+.main13 input {
+    height: 50px;
+    width: 500px;
+    background-color: rgb(128, 128, 128, 0.5);
+    border: 2px solid silver;
+    border-radius: 5px;
+}
+
+.main13::placeholder {
+    color: rgb(241, 233, 233);
+    padding-left: 20px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.main13 button {
+    height: 50px;
+    width: 220px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.main14 {
+    position: absolute;
+    top: 75px;
+    right: -500px;
+    width: 50vw;
+}
+
+.main14 select {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(128, 128, 128, 0.5);
+    border: 2px solid silver;
+    color: white;
+    text-align: center;
+}
+
+.main14 option {
+    background-color: black;
+}
+
+.main14 button {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: 2px solid silver;
+    border-radius: 2px;
+}
+
+.main2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+.main21 {
+    position: absolute;
+    background-color: rgb(135, 20, 230);
+    color: white;
+    text-align: center;
+    width: 70vw;
+    height: 100px;
+    left: 17%;
+    top: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.main21:hover {
+    background-color: rgba(60, 21, 93, 0.9);
+    color: rgb(255, 255, 255, 0.7);
+    transform: scale(1.1);
+}
